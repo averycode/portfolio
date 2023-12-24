@@ -2,14 +2,14 @@ import './globals.css'
 
 export default function Page() {
     return (
-        <div className='container'>
-            <h1>Who am I</h1>
+        <div>
+            <h1 className='text-4xl font-bold tracking-tight sm:text-6xl py-20'>Who am I</h1>
             <div className="avatar">
-                <div className="w-24 rounded-xl">
-                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                <div className="w-60 rounded-xl">
+                    <img src="pb.jpg" />
                 </div>
             </div>
-            <p>
+            <p className='mt-6 text-lg leading-8'>
                 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
                 egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet,
                 ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
