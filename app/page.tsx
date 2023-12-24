@@ -1,8 +1,8 @@
-import React from "react";
+import './globals.css'
 
-function HomePage() {
+export default function Page() {
     return (
-        <div>
+        <div className='container'>
             <h1>Who am I</h1>
             <div className="avatar">
                 <div className="w-24 rounded-xl">
@@ -22,7 +22,5 @@ function HomePage() {
                 facilisis luctus, metus
             </p>
         </div>
-    );
+    )
 }
-
-export default HomePage;
