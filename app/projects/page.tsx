@@ -1,5 +1,3 @@
-export default function Page() {
-    return (
-        <h1>Hello, Project Page!</h1>
-    );
+export default function ProjectPage() {
+    return <h1>Hello, Project Page!</h1>;
 }
