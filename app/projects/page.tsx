@@ -12,9 +12,12 @@ export default function ContentPage() {
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">
-                            Project 1<div className="badge badge-secondary">CRM</div>
+                            CMS for a town<div className="badge badge-secondary">CMS</div>
                         </h2>
-                        <p>Some Information about the project here!</p>
+                        <p>
+                            A Content Management Systems including admin dashboard to manage content visualised on
+                            terminals in town.
+                        </p>
                         <div className="card-actions justify-end">
                             <div className="badge badge-outline">Java</div>
                             <div className="badge badge-outline">Spring Boot</div>
@@ -30,12 +33,12 @@ export default function ContentPage() {
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">
-                            Project 2<div className="badge badge-secondary">Webshop</div>
+                            MobilityBox Demo<div className="badge badge-secondary">MaaS</div>
                         </h2>
-                        <p>Some Information about the project here!</p>
+                        <p>A Demo where you can buy publix transport tickets across multiple regions all in one App.</p>
                         <div className="card-actions justify-end">
-                            <div className="badge badge-outline">React</div>
-                            <div className="badge badge-outline">NodeJS</div>
+                            <div className="badge badge-outline">JavaScript</div>
+                            <div className="badge badge-outline">Vesputi API</div>
                         </div>
                     </div>
                 </div>
@@ -48,11 +51,11 @@ export default function ContentPage() {
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">
-                            Project 3<div className="badge badge-secondary">Artificial Intelligence</div>
+                            Chrome Extension<div className="badge badge-secondary">Fraud Detection</div>
                         </h2>
-                        <p>Some Information about the project here!</p>
+                        <p>Chrome Extension for Kleinanzeigen which hepls you detect fraud.</p>
                         <div className="card-actions justify-end">
-                            <div className="badge badge-outline">Python</div>
+                            <div className="badge badge-outline">JavaScript</div>
                         </div>
                     </div>
                 </div>
