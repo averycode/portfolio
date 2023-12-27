@@ -3,7 +3,7 @@ import "./globals.css";
 export default function HomePage() {
     return (
         <div className="flex flex-col items-center">
-            <h1 className="text-4xl font-bold tracking-tight sm:text-6xl py-20">This is Me</h1>
+            <h1 className="text-4xl font-bold tracking-tight sm:text-6xl py-20">Hello, I am Daniel Renz</h1>
             <div className="avatar">
                 <div className="w-48 rounded-3xl">
                     <img src="pb.jpg" />
