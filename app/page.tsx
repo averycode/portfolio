@@ -16,7 +16,7 @@ export default function HomePage() {
                     </span>
                 </h1>
                 <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
-                <p className="mx-auto max-w-xs sm:max-w-2xl mt-[40px] mb-[54px] text-[18px] font-light text-center">
+                <p className="mx-auto max-w-xs sm:max-w-4xl mt-[40px] mb-[54px] text-[18px] font-light text-center">
                     Hello, I'm Daniel Renz, a master's student in Business Informatics. The fascination for programming
                     drives me every day – the opportunity to create innovation through code deeply inspires me.
                     <br />
@@ -45,8 +45,8 @@ export default function HomePage() {
                         CV
                     </span>
                 </h1>
-                <h2 className="mx-auto text-2xl font-bold ms-4 my-2">Education</h2>
-                <ol className="mx-auto max-w-xs sm:max-w-2xl relative border-s border-gray-200 dark:border-gray-700">
+                <ol className="mx-auto max-w-xs sm:max-w-4xl relative border-s border-gray-200 dark:border-gray-700">
+                    <h2 className="mx-auto text-2xl font-bold ms-4 my-2">Education</h2>
                     <li className="mb-10 ms-4">
                         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                         <time className="mb-1 text-sm font-normal leading-none">Since October 2022</time>
@@ -76,8 +76,8 @@ export default function HomePage() {
                         </p>
                     </li>
                 </ol>
-                <h2 className="mx-auto text-2xl font-bold ms-4 my-2 mt-14">Work Experience</h2>
-                <ol className="mx-auto max-w-xs sm:max-w-2xl relative border-s border-gray-200 dark:border-gray-700">
+                <ol className="mx-auto max-w-xs sm:max-w-4xl relative border-s border-gray-200 dark:border-gray-700">
+                    <h2 className="mx-auto text-2xl font-bold ms-4 my-2 mt-14">Work Experience</h2>
                     <li className="mb-10 ms-4">
                         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                         <time className="mb-1 text-sm font-normal leading-none">Since March 2023</time>
@@ -109,14 +109,67 @@ export default function HomePage() {
                     </li>
                 </ol>
                 <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
+                <h1 className="mx-auto max-w-screen-sm text-center text-[55px] font-extrabold" id="projects">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-tr from-[#FF8660] to-[#8000FF]">
+                        Projects
+                    </span>
+                </h1>
+                <div className="flex flex-col items-center">
+                    <div className="grid gap-10 grid-cols-1 md:grid-cols-3 m-auto my-10">
+                        <div className="card card-compact w-80 shadow-xl">
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1599597435338-adbf0f27b5b0?q=80&w=2667&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                            </figure>
+                            <div className="card-body">
+                                <h2 className="card-title">
+                                    CMS for a town<div className="badge badge-secondary">CMS</div>
+                                </h2>
+                                <p>
+                                    A Content Management Systems including admin dashboard to manage content visualised
+                                    on terminals in town.
+                                </p>
+                                <div className="card-actions justify-end">
+                                    <div className="badge badge-outline">Java</div>
+                                    <div className="badge badge-outline">Spring Boot</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card card-compact w-80 shadow-xl">
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1631776544419-a22760600a39?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                            </figure>
+                            <div className="card-body">
+                                <h2 className="card-title">
+                                    MobilityBox Demo<div className="badge badge-secondary">MaaS</div>
+                                </h2>
+                                <p>
+                                    A Demo where you can buy public transport tickets across multiple regions all in one
+                                    App.
+                                </p>
+                                <div className="card-actions justify-end">
+                                    <div className="badge badge-outline">JavaScript</div>
+                                    <div className="badge badge-outline">Vesputi API</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card card-compact w-80 shadow-xl">
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                            </figure>
+                            <div className="card-body">
+                                <div className="flex items-center gap-1">
+                                    <h2 className="card-title">Chrome Extension</h2>
+                                    <div className="badge badge-secondary">Fraud Detection</div>
+                                </div>
+                                <p>Chrome Extension for Kleinanzeigen which hepls you detect fraud.</p>
+                                <div className="card-actions justify-end">
+                                    <div className="badge badge-outline">JavaScript</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
-}
-
-{
-    /*
-                Überschrift links Bild rechts
-                CV
-                Navbar: Projects, Music, Art */
 }
