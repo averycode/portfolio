@@ -3,7 +3,8 @@ import React from "react";
 export default function PersonalDescriptionComponent() {
     return (
         <div>
-            <p className="mx-auto max-w-xs sm:max-w-4xl mt-[40px] mb-[54px] text-[18px] font-light text-center">
+            <h1 className="mx-auto max-w-screen-sm text-center text-[55px] font-extrabold text-text">About Me</h1>
+            <p className="mx-auto max-w-xs sm:max-w-4xl mt-[40px] mb-[54px] text-[18px] font-light text-center text-text">
                 Hello, I'm Daniel Renz, a master's student in Business Informatics. The fascination for programming
                 drives me every day – the opportunity to create innovation through code deeply inspires me.
                 <br />

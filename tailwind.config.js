@@ -11,12 +11,21 @@ module.exports = {
     theme: {
         colors: {
             text: "#02050f",
-            text2: "#ffffff",
+            text2: "#f2f4fd",
             background: "#f2f5fd",
-            background2: "#ffffff",
-            primary: "#284be5",
-            secondary: "#ef7fcc",
-            accent: "#ea5571",
+            background2: "#02050d",
+            prim: "#a5836f",
+            sec: "#7d6454",
+            acc: "#ffcead",
+
+            /*  text: "#02050f",
+            text2: "#f2f4fd",
+            background: "#f2f5fd",
+            background2: "#02050d",
+            primary: "#a5836f",
+            newcolor: "#a5836f",
+            secondary: "#7d6454",
+            accent: "#ffcead", */
         },
         extend: {},
         container: {

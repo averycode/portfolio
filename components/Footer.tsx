@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer className="footer items-center p-4 justify-center">
+        <footer className="footer items-center p-4 justify-center bg-sec">
             <nav className="grid-flow-col gap-4 place-self-center justify-self-end">
                 <a href="https://www.instagram.com/dxnyxl18" target="_blank">
                     <svg
