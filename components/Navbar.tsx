@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 
-function Navbar() {
+const Navbar = () => {
     return (
         <div className="navbar">
             <div className="flex-1">
@@ -13,18 +13,18 @@ function Navbar() {
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
                     <li>
-                        <Link href="#projects">Projects</Link>
+                        <Link href="">Projects</Link>
                     </li>
                     <li>
-                        <Link href="#">Music</Link>
+                        <Link href="">Music</Link>
                     </li>
                     <li>
-                        <Link href="#">Art</Link>
+                        <Link href="">Art</Link>
                     </li>
                 </ul>
             </div>
         </div>
     );
-}
+};
 
 export default Navbar;

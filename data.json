@@ -1,0 +1,59 @@
+{
+    "education": [
+        {
+            "time": "Since October 2022",
+            "title": "Tecnical University of Darmstadt M.Sc.",
+            "description": "I am pursuing a Master's degree in Business Informatics with a current GPA of 2.1."
+        },
+        {
+            "time": "2019 - 2022",
+            "title": "University of Siegen B.Sc.",
+            "description": "I studied Business Informatics in my Bachelor's degree program and graduated with a final grade of 2.1. My Bachelor's thesis was titled 'Conceptualization and Prototypical Implementation of Integrating Public Transit Services into a Digital Mobility Assistant' earning a grade of 1.7."
+        },
+        {
+            "time": "2009 - 2018",
+            "title": "Comprehensive school Bertha-von-Suttner in Siegen",
+            "description": "I graduated from there with a high school diploma (Abitur) and a final grade of 2.8. My advanced courses (Leistungskurse) were Art and Mathematics."
+        }
+    ],
+    "work_experience": [
+        {
+            "time": "Since March 2023",
+            "title": "Omnicom Media Group Germany in Hamburg",
+            "description": "I am a working student in the field of process management, working on process modeling, process optimization, and taking on Product Owner roles in low-code projects."
+        },
+        {
+            "time": "July 2021 - December 2021",
+            "title": "Vodafone GmbH in Düsseldorf",
+            "description": "During an internship in the field of Business Transformation, I took over project management activities. Furthermore, I contributed to designing a product portfolio and assisting in the strategic planning of Product Lifecycle Management."
+        },
+        {
+            "time": "2018 - 2021",
+            "title": "CineStar in Siegen",
+            "description": "I worked as a marginal employee in cashier, counter, and entrance roles. During this time, I learned customer interaction skills and was able to demonstrate my reliability, flexibility, and teamwork abilities."
+        }
+    ],
+    "project_cards": [
+        {
+            "image_src": "https://images.unsplash.com/photo-1599597435338-adbf0f27b5b0?q=80&w=2667&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "title": "CMS for a town",
+            "type": "CMS",
+            "description": "A Content Management Systems including admin dashboard to manage content visualised on terminals in town.",
+            "technology": ["Java", "Spring-Boot"]
+        },
+        {
+            "image_src": "https://images.unsplash.com/photo-1631776544419-a22760600a39?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "title": "MobilityBox Demo",
+            "type": "MaaS",
+            "description": "A Demo where you can buy public transport tickets across multiple regions all in one App.",
+            "technology": ["JavaScript", "Vesputi API"]
+        },
+        {
+            "image_src": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "title": "Chrome Extension",
+            "type": "Fraud Detection",
+            "description": "Chrome Extension for Kleinanzeigen which hepls you detect fraud.",
+            "technology": ["JavaScript"]
+        }
+    ]
+}

@@ -1,8 +1,8 @@
 import React from "react";
 
-function Footer() {
+const Footer = () => {
     return (
-        <footer className="footer items-center p-4">
+        <footer className="footer items-center p-4 justify-center">
             <nav className="grid-flow-col gap-4 place-self-center justify-self-end">
                 <a href="https://www.instagram.com/dxnyxl18" target="_blank">
                     <svg
@@ -29,6 +29,6 @@ function Footer() {
             </nav>
         </footer>
     );
-}
+};
 
 export default Footer;
