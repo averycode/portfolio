@@ -17,6 +17,7 @@ module.exports = {
             prim: "#a5836f",
             sec: "#7d6454",
             acc: "#ffcead",
+            light: "#DBD8DB",
 
             /*  text: "#02050f",
             text2: "#f2f4fd",

@@ -4,7 +4,7 @@ export default function ProjectCard({ data }) {
     return (
         <a
             href="/"
-            className="card card-compact w-80 bg-sec text-text2 shadow-xl hover:scale-105 transform transition duration-500"
+            className="card card-compact w-80 bg-light text-text shadow-xl hover:scale-105 transform transition duration-500"
         >
             <figure>
                 <img src={data.image_src} />
